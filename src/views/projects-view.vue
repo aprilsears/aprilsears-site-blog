@@ -19,20 +19,31 @@ export default {
     return {
       projects: [
         {
-          title: 'Personal Portfolio',
+          title: 'Personal Portfolio and Blog',
           description: 'A modern portfolio site built with Vue.js and hosted on GitHub Pages.',
-          link: 'https://your-portfolio-link.com'
+         image: require('../assets/images/portfolio pic.png'),
+          link: 'https://github.com/aprilsears/aprilsears-site-blog'
         },
         {
-          title: 'Blog Platform',
-          description: 'A simple blog platform with Markdown support and responsive design.',
-        link: 'https://your-blog-link.com'
-        },
-        {
-          title: 'Chronically Well',
-          description: 'A blog focused on chronic illness and provides information to take your health into your own hands.',
+          title: 'Chronically Well (original)',
+          description: 'A fitness application focused on chronic illness and provides information to take your health into your own hands.',
+          image: require('../assets/images/Screenshot 2025-04-25 211137.png'),
           link: 'https://github.com/aprilsears/chronically-well'
+        },
+
+            {
+          title: 'Chronically Well (using Vue)',
+          description: 'A fitness application redesigned using Vue.js.',
+          image: require('../assets/images/cwvue.png'),
+          link: 'https://github.com/aprilsears/chronically-well-vue'
+        },
+        { 
+            title: 'Quote Card Generator',
+            description: 'A simple image and quote random generator built using JavaScript.',
+            image: require('../assets/images/quotecard.png'),
+            link: 'https://github.com/aprilsears/quote-card-generator'
         }
+
       ]
     }
   }
