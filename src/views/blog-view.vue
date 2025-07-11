@@ -120,8 +120,8 @@ export default {
 .filter-btn {
   padding: 0.5rem 1rem;
   border: 2px solid #3498db;
-  background: white;
-  color: #3498db;
+  background: #3498db;
+  color: white;
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s;
@@ -129,8 +129,8 @@ export default {
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: #3498db;
-  color: white;
+  background:white;
+  color:  #3498db;
 }
 
 .blog-posts {

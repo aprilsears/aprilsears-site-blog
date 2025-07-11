@@ -58,7 +58,8 @@ export default {
 }
 .projects-page h1 {
   text-align: center;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  margin: 2rem;
   color: var(--color-primary);
 }
 .projects-grid {
@@ -78,9 +79,8 @@ export default {
 }
 .project-card img {
   width: 100%;
-  max-width: 320px;
   border-radius: var(--radius);
-  margin-bottom: 1rem;
+  margin: 1rem;
   box-shadow: var(--shadow);
 }
 .project-card h2 {

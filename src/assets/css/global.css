@@ -217,8 +217,8 @@ button:hover, .btn:hover {
 
 /* Selection */
 ::selection {
-  background-color: var(--color-primary-200);
-  color: var(--color-primary-900);
+  background-color: var(--color-muted);
+  color: var(--color-text);
 }
 
 /* Scrollbar */

@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="nav-container">
       <router-link to="/" class="nav-logo">
-        <h1>April Sears</h1>
+        <h1>April Sears - Website Developer</h1>
       </router-link>
       
       <div class="nav-menu" :class="{ active: isMenuOpen }">
@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background: #2c3e50;
+  background: var(--color-surface-dark);
   padding: 1rem 0;
   position: fixed;
   width: 100%;
@@ -106,9 +106,9 @@ export default {
   .nav-menu {
     position: fixed;
     left: -100%;
+    display: flex;
     top: 70px;
     flex-direction: column;
-    background: #2c3e50;
     width: 100%;
     text-align: center;
     transition: 0.3s;

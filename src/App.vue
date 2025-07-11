@@ -1,12 +1,13 @@
 <template>
+  <navigation-bar />
   <router-view />
 </template>
 
 <script>
+import NavigationBar from './components/navigation-bar.vue'
 export default {
-  name: 'App'
+  components: {
+    NavigationBar
+  }
 }
 </script>
-
-<style>
-</style>
