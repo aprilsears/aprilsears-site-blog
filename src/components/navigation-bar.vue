@@ -72,6 +72,7 @@ export default {
 
 .nav-menu {
   display: flex;
+  background-color: blueviolet;
   gap: 2rem;
 }
 

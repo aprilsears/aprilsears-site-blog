@@ -38,14 +38,13 @@ h2 {
   margin-bottom: 1rem;
 }
 .img {
-  height: 10rem;
-  width: 10rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  height: 10rem;
+  width: 10rem;
   border: 2rem solid white;
   margin: 1rem;
-  justify-content: center;
   border-radius: 2rem;
 }
 p {
