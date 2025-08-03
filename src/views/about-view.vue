@@ -38,11 +38,13 @@ h2 {
   margin-bottom: 1rem;
 }
 .img {
- display: flex;
- border: 2rem solid white;
- margin: 1rem;
- height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2rem solid white;
+  margin: 1rem;
   justify-content: center;
   border-radius: 2rem;
 }

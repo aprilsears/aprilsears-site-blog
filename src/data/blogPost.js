@@ -78,5 +78,35 @@ Successfully created a responsive navigation component that works across all scr
 - Add animations and transitions <br>
     `,
     tags: ['vue', 'components', 'css']
+  },
+  {
+    id: 3,
+    slug: 'exploring-markdown-wpforms',
+    title: 'Exploring Markdown and WPForms for a Non-Profit Note App',
+    date: '2025-08-03',
+    excerpt: 'I’m working on a pro bono note-taking app for a non-profit, exploring Markdown for formatting and WPForms for easy data entry.',
+    content: `
+<br><strong> # Exploring Markdown and WPForms </strong> <br>
+
+This week, I started a pro bono project: building a simple note-style app for a local non-profit. My main goals:
+
+- Allow users to write and format notes using Markdown
+- Integrate WPForms for easy data collection and management
+
+<br>Why Markdown?
+
+Markdown is intuitive for non-technical users and keeps formatting simple. I’m using a Vue markdown editor component to let users preview their notes in real time.
+
+<br>Integrating WPForms
+
+WPForms is a user-friendly form builder. I’m experimenting with embedding forms and connecting submissions to the app’s backend.
+
+<br>Next Steps
+
+- Finalize the Markdown editor integration
+- Set up WPForms submission handling
+- Test with real users at the non-profit
+  `,
+    tags: ['vue', 'markdown', 'wpforms', 'non-profit']
   }
 ]
