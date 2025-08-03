@@ -72,13 +72,13 @@ export default {
 
 .nav-menu {
   display: flex;
-  background-color: blueviolet;
+  background-color: rgba(137, 43, 226, 0.618);
   gap: 2rem;
 }
 
 .nav-link {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 500;
   transition: color 0.3s;
 }

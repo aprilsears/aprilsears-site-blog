@@ -59,7 +59,8 @@ export default {
 .projects-page h1 {
   text-align: center;
   font-size: 2.5rem;
-  margin: 2rem;
+  margin: 4rem 0;
+  padding: 1rem;
   color: var(--color-primary);
 }
 .projects-grid {
