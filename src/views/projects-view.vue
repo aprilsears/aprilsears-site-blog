@@ -69,7 +69,7 @@ export default {
   gap: 2rem;
 }
 .project-card {
-  background: #fff;
+  background: #111010ff;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1.5rem;

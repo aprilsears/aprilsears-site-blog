@@ -42,19 +42,23 @@ export default {
 </script>
 <style scoped>
 * {
-  display: block;
-  border: .5rem solid white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+ 
 }
 div {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-medium);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 2rem;
   padding: 2rem;
-  background-color: var(--color-surface-light);
-  font-size: 2rem;
+  border: 1px solid white;
+  line-height: 2rem;
+  font-size: 1rem;
   justify-content: flex-start;
 }
 .date {
@@ -62,6 +66,9 @@ div {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   text-align: center;
+}
+.underline {
+  text-decoration: underline white;
 }
 
 </style>

@@ -131,12 +131,6 @@ pre {
   overflow-x: auto;
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
 
 /* Forms */
 input, textarea, select {

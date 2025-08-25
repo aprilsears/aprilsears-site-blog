@@ -66,13 +66,9 @@ export default {
   font-size: 1.5rem;
 }
 
-.nav-logo {
-  text-decoration: none;
-}
 
 .nav-menu {
   display: flex;
-  background-color: rgba(137, 43, 226, 0.618);
   gap: 2rem;
 }
 
@@ -108,6 +104,7 @@ export default {
     position: fixed;
     left: -100%;
     display: flex;
+    background-color: rgba(34, 26, 77, 0.92);
     top: 70px;
     flex-direction: column;
     width: 100%;
