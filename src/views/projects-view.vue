@@ -37,7 +37,14 @@ export default {
           image: require('../assets/images/cwvue.png'),
           link: 'https://github.com/aprilsears/chronically-well-vue'
         },
-        { 
+            { 
+            title: 'Movie Watch-list and Rating App',
+            description: 'A movie watch-list and rating app built using Vue.js and the TMDB API.',
+            image: require('../assets/images/Movieapp.png'),
+            link: 'https://github.com/aprilsears/movie-watchlist-app'
+        },
+        {
+
             title: 'Quote Card Generator',
             description: 'A simple image and quote random generator built using JavaScript.',
             image: require('../assets/images/quotecard.png'),
