@@ -108,5 +108,23 @@ WPForms is a user-friendly form builder. I’m experimenting with embedding form
 - Test with real users at the non-profit
   `,
     tags: ['vue', 'markdown', 'wpforms', 'non-profit']
+  },
+
+  {
+    id: 4,
+    slug: 'movie-review-app-vue-tmdb-api',
+    title: 'Creating a Movie Review App with Vue and TMDb API',
+    date: '2025-09-11',
+    excerpt: 'I built a movie review app using Vue.js and the TMDb API, allowing users to browse, search, and review their favorite films.',
+    content: `
+<br><strong> # Creating a Movie Review App with Vue and TMDb API </strong> <br>
+    The past few weeks, I've been working on a movie review app using Vue.js and the TMDb API. Here’s a summary of what I accomplished:
+- **TMDb API Integration**: I successfully integrated the TMDb API to fetch movie data, including titles, posters, and descriptions.
+- **Vue Components**: I created reusable Vue components for movie cards, search bars, and review forms.
+- **Routing**: Used a Vue Router to navigate between different views, such as the home page,   movie details, and user reviews.
+- **State Management**: Implemented Vuex to manage the application state, including user reviews and favorite movies.
+- **Responsive Design**: Ensured the app is mobile-friendly using CSS Flexbox and Grid.
+  `,
+    tags: ['vue', 'api']
   }
-]
+];
